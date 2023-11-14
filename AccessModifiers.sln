@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{47F95C7E-782A-441D-8570-4F86F526CDA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GunSimulator", "AccessModifiers\GunSimulator.csproj", "{47F95C7E-782A-441D-8570-4F86F526CDA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers.Helpers", "AccessModifiers.Helpers\AccessModifiers.Helpers.csproj", "{F5A052E6-1330-44F8-8842-B5AA50163CA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GunSimulator.Helpers", "AccessModifiers.Helpers\GunSimulator.Helpers.csproj", "{F5A052E6-1330-44F8-8842-B5AA50163CA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

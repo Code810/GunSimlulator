@@ -1,4 +1,4 @@
 ﻿using GunSimulator.Helpers;
 
 GunShoting start=new ();
-start.StartGunShoting();
+start.StartGunShooting();

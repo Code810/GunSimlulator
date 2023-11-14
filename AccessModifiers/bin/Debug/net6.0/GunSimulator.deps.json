@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GunSimulator/1.0.0": {
+        "dependencies": {
+          "GunSimulator.Helpers": "1.0.0"
+        },
+        "runtime": {
+          "GunSimulator.dll": {}
+        }
+      },
+      "GunSimulator.Helpers/1.0.0": {
+        "runtime": {
+          "GunSimulator.Helpers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GunSimulator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GunSimulator.Helpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AccessModifiers.Helpers\AccessModifiers.Helpers.csproj" />
+    <ProjectReference Include="..\AccessModifiers.Helpers\GunSimulator.Helpers.csproj" />
   </ItemGroup>
 
 </Project>

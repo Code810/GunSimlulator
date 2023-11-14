@@ -7,50 +7,65 @@ namespace GunSimulator.Helpers
     {
         string Command;
         int Count;
-        public void StartGunShoting(int num=30)
+        public void StartGunShooting(int num=30)
         {
             string start = Console.ReadLine();
             Command = start;
             Count = num;
             if (Command == "reload") { Reload(); }  
-            else if (num == 0) { Console.WriteLine("Gulleniz bitdi"); StartGunShoting(0); }
-            else if (Command == "enter") { StandartShoting(); }
-            else if (Command == "tab") { SelectionMode(); }
-            else if (Command == "viev") { Console.WriteLine($"{Count} gulleniz qalib");num++; }
-            else { StartGunShoting(Count); }
-            StartGunShoting(num - 1);
+            else if (num == 0) 
+            { 
+                Console.WriteLine("you're out of bullets"); StartGunShooting(0); 
+            }
+            else if (Command == "enter") 
+            {
+                StandartShooting();
+            }
+            else if (Command == "tab") 
+            { 
+                SwitchMode(); 
+            }
+            else if (Command == "info") 
+            { 
+                Console.WriteLine($"You have {Count} bullets");num++; 
+            }
+            else 
+            {
+                StartGunShooting(Count);
+            }
+            StartGunShooting(num - 1);
         }
-        public void StandartShoting()
+        public void StandartShooting()
         {
-            Console.WriteLine("Ates");
-            StartGunShoting(Count-1);  
+            Console.WriteLine("***shoot***");
+            StartGunShooting(Count-1);  
         }
         public void Reload()
         {
-            Console.WriteLine("30 gulle dolduruldu");
+            Console.WriteLine("30 bullets reloaded");
             Count = 30;
-            StartGunShoting(Count);
+            StartGunShooting(Count);
         }
-        public void AvtoShoting(int num)
+        public void AvtoShooting(int num)
         {
-            if (num == 0) { Console.WriteLine("Gulleniz bitdi"); StartGunShoting(0); }
-            Console.WriteLine("Ates");
-            AvtoShoting(num-1);
+            if (num == 0) { Console.WriteLine("you're out of bullets"); StartGunShooting(0); }
+            Console.WriteLine("***shoot***");
+            AvtoShooting(num-1);
         }
-        public void SelectionMode()
+        public void SwitchMode()
         {
-            Console.WriteLine("avto rejim ve ya adi rejim :");
+            Console.WriteLine("change shooting mode to auto or standard:");
             Command = Console.ReadLine();
-            if (Command =="avto")
+            if (Command =="auto")
             {
                 Command = Console.ReadLine();
                 if (Command == "enter")
                 {
-                    AvtoShoting(Count);
+                    AvtoShooting(Count);
                 }
-                else StartGunShoting(Count);
+                else StartGunShooting(Count);
             }
-            else StartGunShoting(Count);
+            else StartGunShooting(Count);
         }
     }
 }
