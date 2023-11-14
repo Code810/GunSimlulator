@@ -1,0 +1,11 @@
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\bin\Debug\net6.0\AccessModifiers.Helpers.deps.json
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\bin\Debug\net6.0\AccessModifiers.Helpers.dll
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\bin\Debug\net6.0\AccessModifiers.Helpers.pdb
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\obj\Debug\net6.0\AccessModifiers.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\obj\Debug\net6.0\AccessModifiers.Helpers.AssemblyInfoInputs.cache
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\obj\Debug\net6.0\AccessModifiers.Helpers.AssemblyInfo.cs
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\obj\Debug\net6.0\AccessModifiers.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\obj\Debug\net6.0\AccessModifiers.Helpers.dll
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\obj\Debug\net6.0\refint\AccessModifiers.Helpers.dll
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\obj\Debug\net6.0\AccessModifiers.Helpers.pdb
+C:\Users\seidb\OneDrive\Masaüstü\AccessModifiers\AccessModifiers\AccessModifiers.Helpers\obj\Debug\net6.0\ref\AccessModifiers.Helpers.dll

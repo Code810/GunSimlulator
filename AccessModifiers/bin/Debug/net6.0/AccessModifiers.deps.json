@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AccessModifiers/1.0.0": {
+        "dependencies": {
+          "AccessModifiers.Helpers": "1.0.0"
+        },
+        "runtime": {
+          "AccessModifiers.dll": {}
+        }
+      },
+      "AccessModifiers.Helpers/1.0.0": {
+        "runtime": {
+          "AccessModifiers.Helpers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AccessModifiers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccessModifiers.Helpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
