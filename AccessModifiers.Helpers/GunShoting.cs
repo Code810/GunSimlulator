@@ -12,7 +12,10 @@ namespace GunSimulator.Helpers
             string start = Console.ReadLine();
             Command = start;
             Count = num;
-            if (Command == "reload") { Reload(); }  
+            if (Command == "reload") 
+            { 
+                Reload(); 
+            }  
             else if (num == 0) 
             { 
                 Console.WriteLine("you're out of bullets"); StartGunShooting(0); 
@@ -54,17 +57,14 @@ namespace GunSimulator.Helpers
         }
         public void SwitchMode()
         {
-            Console.WriteLine("change shooting mode to auto or standard:");
+            Console.WriteLine("changed auto shooting mode");
             Command = Console.ReadLine();
-            if (Command =="auto")
-            {
-                Command = Console.ReadLine();
+
                 if (Command == "enter")
                 {
                     AvtoShooting(Count);
                 }
-                else StartGunShooting(Count);
-            }
+                
             else StartGunShooting(Count);
         }
     }
