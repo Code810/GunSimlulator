@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AccessModifiers.Helpers/1.0.0": {
+      "GunSimulator.Helpers/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/AccessModifiers.Helpers.dll": {}
+          "bin/placeholder/GunSimulator.Helpers.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AccessModifiers.Helpers.dll": {}
+          "bin/placeholder/GunSimulator.Helpers.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "AccessModifiers.Helpers/1.0.0": {
+    "GunSimulator.Helpers/1.0.0": {
       "type": "project",
-      "path": "../AccessModifiers.Helpers/AccessModifiers.Helpers.csproj",
-      "msbuildProject": "../AccessModifiers.Helpers/AccessModifiers.Helpers.csproj"
+      "path": "../AccessModifiers.Helpers/GunSimulator.Helpers.csproj",
+      "msbuildProject": "../AccessModifiers.Helpers/GunSimulator.Helpers.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AccessModifiers.Helpers >= 1.0.0"
+      "GunSimulator.Helpers >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers\\AccessModifiers.csproj",
-      "projectName": "AccessModifiers",
-      "projectPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers\\AccessModifiers.csproj",
+      "projectUniqueName": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers\\GunSimulator.csproj",
+      "projectName": "GunSimulator",
+      "projectPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers\\GunSimulator.csproj",
       "packagesPath": "C:\\Users\\seidb\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers\\obj\\",
       "projectStyle": "PackageReference",
@@ -58,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\AccessModifiers.Helpers.csproj": {
-              "projectPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\AccessModifiers.Helpers.csproj"
+            "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\GunSimulator.Helpers.csproj": {
+              "projectPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\GunSimulator.Helpers.csproj"
             }
           }
         }

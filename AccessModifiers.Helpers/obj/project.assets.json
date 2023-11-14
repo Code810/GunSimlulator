@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\AccessModifiers.Helpers.csproj",
-      "projectName": "AccessModifiers.Helpers",
-      "projectPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\AccessModifiers.Helpers.csproj",
+      "projectUniqueName": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\GunSimulator.Helpers.csproj",
+      "projectName": "GunSimulator.Helpers",
+      "projectPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\GunSimulator.Helpers.csproj",
       "packagesPath": "C:\\Users\\seidb\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\obj\\",
       "projectStyle": "PackageReference",

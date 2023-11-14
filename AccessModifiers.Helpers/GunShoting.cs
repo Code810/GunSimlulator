@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System.Diagnostics.Metrics;
 
 namespace GunSimulator.Helpers
 {
-    internal class GunShoting2
+    public class GunShoting
     {
         string Command;
         int Count;
-        public void StartGunShoting(int num = 30)
+        public void StartGunShoting(int num=30)
         {
             string start = Console.ReadLine();
             Command = start;
@@ -19,14 +16,14 @@ namespace GunSimulator.Helpers
             else if (num == 0) { Console.WriteLine("Gulleniz bitdi"); StartGunShoting(0); }
             else if (Command == "enter") { StandartShoting(); }
             else if (Command == "tab") { SelectionMode(); }
-            else if (Command == "viev") { Console.WriteLine($"{Count} gulleniz qalib"); num++; }
+            else if (Command == "viev") { Console.WriteLine($"{Count} gulleniz qalib");num++; }
             else { StartGunShoting(Count); }
             StartGunShoting(num - 1);
         }
         public void StandartShoting()
         {
             Console.WriteLine("Ates");
-            StartGunShoting(Count - 1);
+            StartGunShoting(Count-1);  
         }
         public void Reload()
         {
@@ -38,13 +35,13 @@ namespace GunSimulator.Helpers
         {
             if (num == 0) { Console.WriteLine("Gulleniz bitdi"); StartGunShoting(0); }
             Console.WriteLine("Ates");
-            AvtoShoting(num - 1);
+            AvtoShoting(num-1);
         }
         public void SelectionMode()
         {
             Console.WriteLine("avto rejim ve ya adi rejim :");
             Command = Console.ReadLine();
-            if (Command == "avto")
+            if (Command =="avto")
             {
                 Command = Console.ReadLine();
                 if (Command == "enter")

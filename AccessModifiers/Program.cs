@@ -1,4 +1,4 @@
-﻿using AccessModifiers.Helpers;
+﻿using GunSimulator.Helpers;
 
-GunShoting2 start=new ();
+GunShoting start=new ();
 start.StartGunShoting();
