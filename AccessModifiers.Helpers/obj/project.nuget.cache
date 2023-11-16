@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SWOtrzXmTMleabTbhMj2Nd1CKFUDv2LSSZbPa9zkmdtTNCrebj52BMYWwH9NXEM2u0g9f3HzpK8jgVeaQiBLrw==",
+  "dgSpecHash": "fv+Rvzn4vkFywLBPlTeM6uiYMhrSlwNhAjzsACpL5ajEwUSX+2VQr5VA3vhbf2L0Fv6K2tzHtbQEpVbNpju+0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\GunSimulator.Helpers.csproj",
+  "projectFilePath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\GunSimulator\\GunSimlulator\\AccessModifiers.Helpers\\GunSimulator.Helpers.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

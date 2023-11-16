@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\GunSimulator.Helpers.csproj",
+      "projectUniqueName": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\GunSimulator\\GunSimlulator\\AccessModifiers.Helpers\\GunSimulator.Helpers.csproj",
       "projectName": "GunSimulator.Helpers",
-      "projectPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\GunSimulator.Helpers.csproj",
+      "projectPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\GunSimulator\\GunSimlulator\\AccessModifiers.Helpers\\GunSimulator.Helpers.csproj",
       "packagesPath": "C:\\Users\\seidb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\AccessModifiers\\AccessModifiers\\AccessModifiers.Helpers\\obj\\",
+      "outputPath": "C:\\Users\\seidb\\OneDrive\\Masaüstü\\GunSimulator\\GunSimlulator\\AccessModifiers.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
